@@ -200,7 +200,9 @@ Project Link: [https://github.com/Pault26/14-Module-Tech-Blog](https://github.co
 
 Special thanks to the following for making this project possible! 
 
-* [Choose an Open Source License](https://choosealicense.com)
+* [Handlebars doc](https://handlebarsjs.com/guide/)
+* [MVC Walkthrough](https://www.youtube.com/watch?v=DUg2SWWK18I)
+* [experienceincolor walkthrough reference](https://codesandbox.io/s/experienceincolor-model-view-controller-mvc-tech-blog-1-evzoep?file=/server.js)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
