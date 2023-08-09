@@ -86,7 +86,9 @@ This application was built with the following:
 
 ### Issues
 
-Currently as it stands there is an issue with the project on Heroku. I have tried fixing several different things that were coming up under the --tail feature in Heroku CLI but nothing seems to work right now. Will be continuing to try to fix this feature but until now the repo is mostly complete.
+Currently as it stands there is an issue with the project on Heroku. I have tried fixing several different things that were coming up under the --tail feature in Heroku CLI but nothing seems to work right now. Will be continuing to try to fix this feature but until now the repo is mostly complete. 
+
+I have discovered that the issue lies somewhere with how I am managing data with the application. I am trying to resolve this with Heroku but currently (as mentioned below) the app works locally!
 
 ### Fixes!
 [![Post Screen Shot][post-product-screenshot]]
