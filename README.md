@@ -64,6 +64,8 @@ This tech blog allows the user to create an account and share their thoughts! Wi
 
 At the moment the Heroku application is not working. The link will be provided below once everything is up and running!
 
+This repo is a replica of my other repo which I accidentally goofed around with too much and messed up. This is the new repo set up similar to the first!
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
