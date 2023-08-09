@@ -88,6 +88,13 @@ This application was built with the following:
 
 Currently as it stands there is an issue with the project on Heroku. I have tried fixing several different things that were coming up under the --tail feature in Heroku CLI but nothing seems to work right now. Will be continuing to try to fix this feature but until now the repo is mostly complete.
 
+### Fixes!
+[![Post Screen Shot][post-product-screenshot]]
+
+SO! It only took me like 8 hours, 2 crying sessions, and a destroyed repo to get it to work! The heroku app still refuses to work but finally the local version actually stays up and doesnt break any time you try to make a post! Here are some screenshots of what it would look like to navigate the product.
+
+[![Login Screen Shot][Login-product-screenshot]]
+
 See the [open issues](https://github.com/Pault26/14-Module-Tech-Blog/issues) for a full list of known issues.
 
 <!-- GETTING STARTED -->
@@ -202,7 +209,9 @@ Special thanks to the following for making this project possible!
 [license-url]: https://github.com/Pault26/14-Module-Tech-Blog/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/paul-tuemler/
-[product-screenshot]: assets\14-mvc-homework-demo-01.gif
+[product-screenshot]: assets\thankgod.PNG
+[post-product-screenshot]: assets\yesss2.PNG
+[Login-product-screenshot]: assets\loginyes.PNG
 [JavaScript]: 	https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
 [JavaScript-url]: https://www.javascript.com/
 [Express.js]: https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white
