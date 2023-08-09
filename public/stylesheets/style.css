@@ -1,0 +1,315 @@
+/* Reset box model and apply base styles to all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Set base styles for the body and HTML elements */
+body,
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: #9D8189; /* Text color */
+}
+
+/* Header, site name, and main content background */
+main,
+.site-name {
+    background-color: #D8E2DC;
+}
+
+/* Links and buttons */
+a,
+.btn-no-style,
+#comment-subtitle {
+    color: #D8E2DC;
+}
+
+/* Hover styles for links and buttons */
+a:hover,
+.btn-no-style:hover {
+    color: #FFE5D9;
+}
+
+/* General link styling */
+a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.1s;
+}
+
+/* Buttons */
+button {
+    background-color: #FFCAD4;
+    border: 0;
+    padding: 1%;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.1s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #F4ACB7;
+}
+
+/* List styling */
+.post-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* Styling for go back link */
+.go-back {
+    color: #9D8189;
+}
+
+/* Input and textarea styling */
+textarea,
+input {
+    padding: 0.5%;
+    border-radius: 5px;
+    border: 1px solid #D8E2DC;
+}
+
+/* Focus styles for input and textarea */
+textarea:focus,
+input:focus {
+    outline: none;
+    border: 1px solid #F4ACB7;
+}
+
+/* Set minimum width and height for textarea */
+textarea {
+    min-width: 40%;
+    min-height: 100px;
+}
+
+/* Margin for form elements */
+form>div {
+    margin-bottom: 2%;
+}
+
+/* Label display style */
+form label {
+    display: block;
+}
+
+/* Wrapper for page content */
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Info section styles */
+.info-section {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Header, site row, info section, and form heading background */
+header,
+.site-row,
+.info-section,
+.form-heading {
+    background-color: #9D8189;
+}
+
+/* Page layout and padding for specific page types */
+.login-page,
+.sign-in-page,
+.new-form-page,
+.edit-form-page {
+    border: 3px solid black;
+    padding-bottom: 10px;
+}
+
+/* Form heading padding */
+.form-heading {
+    padding: 10px;
+}
+
+/* Padding for sections and links */
+.info-section,
+.content-section,
+.form-section,
+.sign-in-link,
+.login-link {
+    padding-left: 10px;
+}
+
+/* Padding for post name and title sections */
+.post-name,
+.post-title-section,
+.new-page {
+    padding-top: 10px;
+}
+
+/* Header layout */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1%;
+}
+
+/* Header title size */
+header h1 {
+    font-size: 1em;
+}
+
+/* Site row layout and border */
+.site-row {
+    display: flex;
+    border-bottom: 1px solid #D8E2DC;
+    justify-content: center;
+}
+
+/* Site name margin and border */
+.site-name {
+    margin-bottom: 10px;
+    padding: 0px 10px;
+    border-style: double;
+}
+
+/* Main content styling */
+main {
+    flex: 1;
+    padding: 2% 4%;
+}
+
+/* Button with no background style */
+.btn-no-style {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: bold;
+    transition: color 0.1s;
+    margin-left: 16px;
+}
+
+/* Button hover effect */
+.btn-no-style:hover {
+    background: none;
+}
+
+/* Delete post button */
+.delete-post-btn {
+    background-color: #D41414;
+}
+
+/* Hover effect for delete post button */
+.delete-post-btn:hover {
+    background-color: #FF643D;
+}
+
+/* Styling for individual posts */
+.post {
+    margin-bottom: 2%;
+    line-height: 150%;
+    border: 3px solid black;
+}
+
+/* Styling for post title span */
+.post .title span {
+    font-style: italic;
+    font-size: 90%;
+    color: #7D7D7D;
+}
+
+/* Edit link styling */
+.edit-link {
+    display: block;
+    margin: -1.5% 0 2% 0;
+    color: #9D8189;
+}
+
+/* Comment form margin */
+.comment-form {
+    margin-bottom: 5%;
+}
+
+/* Styling for individual comments */
+.comment {
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+/* Odd numbered comment background color */
+.comment:nth-child(odd) {
+    background-color: #FFE5D9;
+}
+
+/* Meta information for comments */
+.comment .meta {
+    font-size: 90%;
+    margin-bottom: 0.5%;
+    opacity: 0.6;
+}
+
+/* Width for new post input */
+.new-post-form input {
+    width: 300px;
+}
+
+/* Margin for edit post form */
+.edit-post-form {
+    margin-bottom: 5%;
+}
+
+/* Styling for comment subtitle */
+#comment-subtitle {
+    font-size: 12px;
+    font-style: italic;
+}
+
+/* Styling for new post section */
+.new-post-section {
+    display: flex;
+    justify-content: center;
+}
+
+/* Create new post button width */
+#create-new-post {
+    width: 15%;
+}
+
+/* Styling for sign-in and login links */
+.sign-in-link,
+.login-link {
+    color: #9D8189;
+}
+
+/* Styling for form heading titles */
+.form-heading h1,
+.form-heading h2 {
+    color: #D8E2DC;
+}
+
+/* Padding for login form, signup form, post content, and post title section */
+.login-form,
+.signup-form,
+.post-content,
+.post-title-section {
+    padding: 10px 10px 0px 0px;
+}
+
+/* Width for entry fields, login/signup buttons, general buttons, and post title */
+.entry-field,
+.login-signup-btn,
+.btn,
+#post-title {
+    width: 100%;
+}
