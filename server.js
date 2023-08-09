@@ -26,7 +26,7 @@ const sess = {
 const app = express();
 
 // Set the port for the application.
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3006;
 
 // Configure the view engine to use Handlebars.
 app.engine('handlebars', hbs.engine);
